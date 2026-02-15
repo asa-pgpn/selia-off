@@ -3,7 +3,7 @@ export default function LightGamingPage() {
     <div className="min-h-screen bg-white text-slate-800 font-sans selection:bg-emerald-100">
       
       {/* Hero Section dengan Background Terang */}
-      <section className="relative h-[85vh] md:h-screen w-full overflow-hidden bg-[#f8fafc]">
+      <section className="relative h-[85vh] md:h-screen w-full overflow-hidden bg-[#F4F7D8]">
         {/* Overlay Gradien Lembut (Putih ke Transparan) */}
         <div className="absolute inset-0 bg-gradient-to-r from-white via-white/40 to-transparent z-10" />
         
@@ -13,7 +13,7 @@ export default function LightGamingPage() {
 
         {/* Gambar Hero (Gunakan gambar dengan nuansa lebih terang atau transparan) */}
         <img 
-          src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&q=80&w=2070" 
+          src="https://i.ibb.co.com/fYFp698X/flowers.png" 
           alt="Hero Character"
           className="absolute inset-0 w-full h-full object-cover object-center scale-105 opacity-20 md:opacity-40"
         />
